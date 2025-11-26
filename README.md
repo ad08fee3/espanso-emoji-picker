@@ -46,7 +46,7 @@ You can!
 
 ## Installation
 
-### CLI (from Git) (Coming soon)
+### CLI (from Git)
 
 This approach installs the package directly from the Git repository as the external package.
 
