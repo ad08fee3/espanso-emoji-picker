@@ -71,7 +71,7 @@ To change the trigger:
 You could even change the trigger to a key-combo! See the [Espanso docs](https://espanso.org/docs/matches/basics/#keyboard-triggers) for more details.
 
 **Note:** If you want to emulate standard "colon-emoji" support, similar to the syntax of Discord, Slack, Google Chat, Git, (etc), then you can change the trigger to `" :"` and change the value of `replace` to `" {{output}}"`.
-This means that _every_ time you type a colon after a space the picker will appear. If you do that, you may want to disable this package for certain applications that natively support colon-emojis, like Discord, Slack, etc. See the [Espanso docs](https://espanso.org/docs/configuration/include-and-exclude/) for more.
+This means that _every_ time you type a colon after a space the picker will appear. If you do that, you may want to disable this package for certain applications that natively support colon-emojis, like Discord, Slack, etc. See the [Espanso docs](https://espanso.org/docs/configuration/include-and-exclude/) for more details.
 
 ### Customizing the shortcuts:
 

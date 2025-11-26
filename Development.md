@@ -19,3 +19,4 @@ There's a bunch of fun stuff we could do with this, but I'm not sure what all is
 * Can we track usage, so more-frequent selections move towards the top of the list?
 * Can we allow the user to order the options to prioritize certain results?
 * Unicode 17 is getting support soon - add support for that. e.g. https://github.com/muan/unicode-emoji-json/pull/21
+* Skin tone support? This may require making a script that the user can run on their on machine.
