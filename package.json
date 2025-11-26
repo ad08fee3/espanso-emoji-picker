@@ -1,0 +1,19 @@
+{
+    "name": "espanso-emoji-picker",
+    "version": "1.0.0",
+    "description": "This is a package created for [Espanso](https://espanso.org/) called `emoji-picker` that provides a picker to select an emoji based on your input.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^24.10.1",
+        "emojilib": "^4.0.2",
+        "node-html-parser": "^7.0.1",
+        "typescript": "^5.9.3",
+        "unicode-emoji-json": "^0.8.0"
+    }
+}

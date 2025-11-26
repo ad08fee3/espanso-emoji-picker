@@ -1,4 +1,4 @@
-# Espanso Emoji Picker v16.0.0
+# Espanso Emoji Picker
 
 This is a package created for [Espanso](https://espanso.org/) called `emoji-picker` that provides a picker to select an emoji based on your input.
 
@@ -43,38 +43,3 @@ You can!
 
 1. Open the `package.yml` file in the editor of your choice. Notepad works just fine.
 2. Add, delete, or edit any of the label/id pairs you see. The `label` is what shows when you are using the picker, and the `id` is the emoji that gets inserted by the `label` on the preceding line.
-
-## Installation
-
-### CLI (from Git) (Coming soon)
-
-This approach installs the package directly from the Git repository as the external package.
-
-1. Ensure Espanso is properly installed and accessible through the terminal.
-2. Paste the following code into your command line: `espanso package install emoji-picker --git https://github.com/ad08fee3/espanso-emoji-picker -e`
-3. Hit <kbd>Enter</kbd>
-
-### CLI (from Hub) (Coming soon)
-
-This approach installs the package from Espanso Hub.
-
-1. Ensure Espanso is properly installed and accessible through the terminal.
-2. Paste the following code into your command line: `espanso install emoji-picker`
-3. Hit <kbd>Enter</kbd>
-
-> ⚠️ The version of this package on the Espanso hub may not be the most up-to-date!
-
-
-### Manual (Coming soon)
-
-1. Navigate to [Releases](https://github.com/ad08fee3/espanso-emoji-picker/releases)
-2. Download the latest zip file
-3. Navigate to your Espanso directory (on Windows this is located in %appdata% by default) and extract the zip file into `/match/packages`
-
-## Development
-
-1. Clone this repo.
-2. Ensure you have `npm` and `npx` installed
-3. Set up: `npm install`
-4. Build & run: `npx tsc && node dist/index.js`
-5. Take the newly-created `package.yml` file and put it into a new release within the `espanso_package` directory.
