@@ -1,12 +1,9 @@
-# espanso-emoji-picker
-A simple emoji picker for espanso.
-
-This is heavily inspired by the work done in [jobiewong/espanso-emojis](https://github.com/jobiewong/espanso-emojis) and was started by a fork, but heavily modified to use search capabilities instead. (And TypeScript.)
-
-
 # Espanso Emoji Picker v17.0.0
 
 This is a package created for [Espanso](https://espanso.org/) called `emoji-picker` that provides a picker to select an emoji based on your input.
+
+This is heavily inspired by the work done in [jobiewong/espanso-emojis](https://github.com/jobiewong/espanso-emojis) and was started by a fork, but heavily modified to use search capabilities instead. (And TypeScript.)
+
 
 The method behind the package is very simple: Emoji unicode values and names are fetched from [Unicode.org](https://unicode.org/emoji/charts/full-emoji-list.html). They're then formatted and processed in TypeScript and exported as a yml file.
 
