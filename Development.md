@@ -13,10 +13,12 @@ Want to add features or help keep this package up-to-date?
 
 ## Todos / Ideas:
 There's a bunch of fun stuff we could do with this, but I'm not sure what all is possible.
+* Unicode 17 is getting support soon - add support for that. e.g. https://github.com/muan/unicode-emoji-json/pull/21
+* Skin tone support? This may require making a script that the user can run on their on machine to update the replacements.
 
-* Better font rendering support - the emojis in the selector show up as 1-bit (black & white) on Windows. This may be an update needed within Espanso itself.
+### Feature improvements that must happen within Espanso:
+* If the user types an EXACT match, that match should be at the top of the list.
+* Better font rendering support - the emojis in the selector show up as 1-bit (black & white) on Windows. See: [emoji representation in search bar · Issue #1972 · espanso/espanso](https://github.com/espanso/espanso/issues/1972) and [Some symbols are not visible in the pop up. · Issue #2327 · espanso/espanso](https://github.com/espanso/espanso/issues/2327)
 * Is it possible to add a "favorites" feature, so that some emoji are at the top of the list?
 * Can we track usage, so more-frequent selections move towards the top of the list?
-* Can we allow the user to order the options to prioritize certain results?
-* Unicode 17 is getting support soon - add support for that. e.g. https://github.com/muan/unicode-emoji-json/pull/21
-* Skin tone support? This may require making a script that the user can run on their on machine.
+* Can we allow the user to order the options to prioritize certain results? See also: [Choice Extension: Add option to disable items' re-sorting · Issue #2132 · espanso/espanso](https://github.com/espanso/espanso/issues/2132)

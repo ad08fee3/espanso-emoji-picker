@@ -2,6 +2,8 @@
 
 This is a package created for [Espanso](https://espanso.org/) called `emoji-picker` that provides a picker to select an emoji based on your input.
 
+![Emoji Picker Screenshot running on Linux Mint with X11](images/screenshot_linux_x11.png)
+
 This is heavily inspired by the work done in [jobiewong/espanso-emojis](https://github.com/jobiewong/espanso-emojis) and was started by a fork, but heavily modified to use search capabilities instead.
 
 The method behind the package is very simple: Emoji unicode values and names are fetched from https://github.com/muan/unicode-emoji-json. They're then formatted and exported as a yml file for use by Espanso.
@@ -15,7 +17,7 @@ _Why use this instead of your OS's or application's built-in emoji picker?_
 3. **Modernity.** This project was inspired by some operating systems having outdated lists of emojis. _(Looking at you, Windows 10.)_
 
 _Why use this over other Espanso emoji packages?_  
-None of the existing Espanso packages offer a search function, which means you must type the entire name of the emoji, perfectly, to get Espanso to replace the prompt for you. With this package you can use Espanso's built-in picker to choose the emoji that most closely matches what you search for!
+The other Espanso emoji packages just dump 1,000+ emojis in your Espanso folder, thus clogging up your search results if you ever use the Espanso search to find expansion options. This clogs your search results with emojis, which makes finding *non*-emojis harder. With this package you can use Espanso's built-in picker to choose the emoji that most closely matches what you search for, without clogging search results!
 
 ## Usage:
 
@@ -32,7 +34,8 @@ To use this package, ensure [Espanso](https://espanso.org/) is installed on your
 This approach installs the package directly from the Git repository as the external package.
 
 1. Ensure Espanso is accessible through your PC's terminal.
-2. Paste the following code into your command line: `espanso package install emoji-picker --git https://github.com/ad08fee3/espanso-emoji-picker -e`
+2. Paste the following code into your command line:  
+  `espanso package install emoji-picker --git https://github.com/ad08fee3/espanso-emoji-picker -e`
 3. Hit <kbd>Enter</kbd>
 
 ### CLI (from Hub): (Coming soon)
@@ -40,7 +43,8 @@ This approach installs the package directly from the Git repository as the exter
 This approach installs the package from Espanso Hub.
 
 1. Ensure Espanso is accessible through your PC's terminal.
-2. Paste the following code into your command line: `espanso install emoji-picker`
+2. Paste the following code into your command line:  
+  `espanso install emoji-picker`
 3. Hit <kbd>Enter</kbd>
 
 > ⚠️ The version of this package on the Espanso hub may not be the most up-to-date!
@@ -85,7 +89,19 @@ This means that _every_ time you type a colon after a space the picker will appe
 2. Add, delete, or edit any of the label/id pairs you see. The `label` is what shows when you are using the picker, and the `id` is the emoji that gets inserted by the `label` on the preceding line.
 
 
-## Development
+## Known Issues:
+
+### Why do the emojis look weird on Windows?
+On Windows 10/11 devices, the emojis render in the dropdown like this:
+![Emoji Picker Screenshot running Windows 10](/images/screenshot_windows_10.png)
+
+Obviously this is not ideal. This is a Windows-specific issue that likely can be fixed in the Espanso program itself. See this open issue for more details: [emoji representation in search bar · Issue #1972 · espanso/espanso](https://github.com/espanso/espanso/issues/1972)
+
+### If I type an exact match for an emoji, why do I have to dig for it?
+For example, if you type `car` in the search bar you'll get hundreds of matching emojis. You'd think that 🚗 would be close to the top, right?  
+This is apparently a quirk of how Espanso renders options when showing search results. This is likely something that could be fixed within Espanso itself.
+
+## Development:
 
 Want to add features or help keep this package up-to-date?
 
