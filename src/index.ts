@@ -26,7 +26,7 @@ async function main() {
         }
         const filteredKeywords: Set<string> = new Set<string>(
             keywords.map((keyword: string) => {
-                return keyword.replace(" ", "_") // Replace all instances of spaces with underscores for easier searching.
+                return keyword.replaceAll(" ", "_") // Replace all instances of spaces with underscores for easier searching.
                 .replace(/[^a-zA-Z0-9_]/g, "") // Then delete all non-alphanumeric characters.
             })
             .filter((keyword: string) => (keyword.length > 0))); // Then remove any keywords that may now be empty.
@@ -34,7 +34,7 @@ async function main() {
         // For each of the keywords, add it to the list of options for Espanso.
         filteredKeywords.forEach((keyword: string) => {
             yamlLines.push(
-                `        - label: "${emoji} ${keyword}"`, // This line is what is rendered in the emoji picker. We want to show both the emoji and keyword.
+                `        - label: "${emoji} :${keyword}:"`, // This line is what is rendered in the emoji picker. We want to show both the emoji and keyword.
                 `          id: "${emoji}"` // "id" is the value that Espanso will type for you. In this case, we want the emoji to appear.
             );
         });

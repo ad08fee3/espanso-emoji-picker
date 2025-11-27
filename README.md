@@ -11,6 +11,7 @@ The method behind the package is very simple: Emoji unicode values and names are
 This project uses the search keywords provided by [muan/emojilib: Emoji keyword library.](https://github.com/muan/emojilib)
 
 ## Why?
+
 _Why use this instead of your OS's or application's built-in emoji picker?_  
 1. **Consistency across devices.** Use multiple computers? Multiple operating systems? Multiple applications? This works the same way across _all_ devices and applications. Not all devices _have_ a built-in emoji picker.
 2. **Customization.** See notes in the `Customization` section below. You can change the trigger or shortcuts to your liking!
@@ -56,6 +57,7 @@ This approach installs the package from Espanso Hub.
 3. Navigate to your Espanso directory (on Windows this is located in `%appdata%` by default) and extract the zip file into `/match/packages`
 
 ## Customization:
+
 Being a simple text file on your PC, you are able to tweak the suggestions however you choose. Just know that any of the following suggestions may be overwritten if you update the extension! So maybe make a copy of the `package.yml` file and make your changes there instead.
 
 To make changes to the default settings,
@@ -69,7 +71,7 @@ By default, the trigger is set to `:em`. You could change this to any value you'
 
 To change the trigger:
 
-1. Open the `package.yml` file
+1. Open the `package.yml` file.
 2. Change the value in the `triggers` array, or add more.
 
 You could even change the trigger to a key-combo! See the [Espanso docs](https://espanso.org/docs/matches/basics/#keyboard-triggers) for more details.
@@ -88,7 +90,6 @@ This means that _every_ time you type a colon after a space the picker will appe
 1. Open the `package.yml` file in the editor of your choice. Notepad works just fine.
 2. Add, delete, or edit any of the label/id pairs you see. The `label` is what shows when you are using the picker, and the `id` is the emoji that gets inserted by the `label` on the preceding line.
 
-
 ## Known Issues:
 
 ### Why do the emojis look weird on Windows?
@@ -100,6 +101,8 @@ Obviously this is not ideal. This is a Windows-specific issue that likely can be
 ### If I type an exact match for an emoji, why do I have to dig for it?
 For example, if you type `car` in the search bar you'll get hundreds of matching emojis. You'd think that 🚗 would be close to the top, right?  
 This is apparently a quirk of how Espanso renders options when showing search results. This is likely something that could be fixed within Espanso itself.
+
+As a workaround, you can type `:car` or `:car:` into the search dropdown to get exact matches.
 
 ## Development:
 
