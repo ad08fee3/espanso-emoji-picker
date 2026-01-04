@@ -1,4 +1,4 @@
-# Espanso Emoji Picker v16.0.0
+# Espanso Emoji Picker v1.16.0
 
 This is a package created for [Espanso](https://espanso.org/) called `emoji-picker` that provides a picker to select an emoji based on your input.
 
