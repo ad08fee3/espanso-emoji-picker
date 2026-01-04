@@ -39,7 +39,7 @@ This approach installs the package directly from the Git repository as the exter
   `espanso package install emoji-picker --git https://github.com/ad08fee3/espanso-emoji-picker -e`
 3. Hit <kbd>Enter</kbd>
 
-### CLI (from Hub): (Coming soon)
+### CLI (from Hub):
 
 This approach installs the package from Espanso Hub.
 
@@ -50,7 +50,7 @@ This approach installs the package from Espanso Hub.
 
 > ⚠️ The version of this package on the Espanso hub may not be the most up-to-date!
 
-### Manual: (Coming soon)
+### Manual:
 
 1. Navigate to [Releases](https://github.com/ad08fee3/espanso-emoji-picker/releases)
 2. Download the latest zip file

@@ -22,3 +22,4 @@ There's a bunch of fun stuff we could do with this, but I'm not sure what all is
 * Is it possible to add a "favorites" feature, so that some emoji are at the top of the list?
 * Can we track usage, so more-frequent selections move towards the top of the list?
 * Can we allow the user to order the options to prioritize certain results? See also: [Choice Extension: Add option to disable items' re-sorting · Issue #2132 · espanso/espanso](https://github.com/espanso/espanso/issues/2132)
+* See also: [Add search\_terms to the choice extension · Issue #2588 · espanso/espanso](https://github.com/espanso/espanso/issues/2588)
