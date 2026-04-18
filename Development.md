@@ -13,7 +13,6 @@ Want to add features or help keep this package up-to-date?
 
 ## Todos / Ideas:
 There's a bunch of fun stuff we could do with this, but I'm not sure what all is possible.
-* Unicode 17 is getting support soon - add support for that. https://github.com/ad08fee3/espanso-emoji-picker/issues/1
 * Skin tone support? This may require making a script that the user can run on their on machine to update the replacements.
 
 ### Feature improvements that must happen within Espanso:

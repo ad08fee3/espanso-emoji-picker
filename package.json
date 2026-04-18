@@ -10,10 +10,10 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "@types/node": "^24.10.1",
-        "emojilib": "^4.0.2",
-        "node-html-parser": "^7.0.1",
-        "typescript": "^5.9.3",
-        "unicode-emoji-json": "^0.8.0"
+        "@types/node": "^25.6.0",
+        "emojilib": "^4.0.3",
+        "node-html-parser": "^7.1.0",
+        "typescript": "^6.0.3",
+        "unicode-emoji-json": "^0.9.0"
     }
 }
